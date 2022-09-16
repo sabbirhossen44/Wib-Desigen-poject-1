@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.fullArea{
+    overflow: hidden;
+    width: 100%;
+    padding: 0 110px;
+    height: auto;
+}
+
+
+.main{
+    width: 100%;
+    padding: 5px 10px;
+}
+
+.logo{
+    width: 20%;
+    float: left;
+    color: #ff7200;
+    font-size: 35px;
+    padding: 20px 100px;
+
+}
+
+.area{
+    margin-top: 150px;
+    width: 70%;
+    float: left;
+}
+
+.menu{
+    width: 60%;
+    float: left;
+}
+
+.menu ul{
+    width: 100%;
+    list-style-type: none;
+    float: left;
+    
+}
+
+.menu ul li{
+    display: inline-block;
+    padding: 40px 50px;
+    font-size: 25px;
+    
+}
+
+.menu ul li a{
+    color: aliceblue;
+    display: block;
+    text-decoration: none;
+    position: relative;
+    padding: 5px 10px;
+}
+
+.menu ul li a:hover{
+    background-color: #ff7200;
+    color: #fff;
+    transition: 0.5s;
+}
+
+
+
+.searchBar{
+    margin-top: 50px;
+    border: 2px solid orange;
+    width: 15%;
+    float: left;
+    
+    
+}
+.searchBar input{
+    border: 5px solid #ff7200;
+    width: 70%;
+    float: left;
+    outline: none;
+    border: none;
+    padding: 6px 6px;
+}
+
+
+.searchBar button{
+    
+    width: 30%;
+    float: right;
+    outline: none;
+    border: none;
+    background-color: orange;
+    padding: 6px 6px;
+    cursor: pointer;
+}
+
+
+.paragraph1{
+    color: #fff;
+}
+
+.paragraph1 p{
+    width: 100%;
+    font-size: 50px;
+
+}
+.paragraph2{
+    width: 70%;
+    
+    color: #ff7200;
+}
+.paragraph2 p{
+    width: 100%;
+    font-size: 65px;
+    letter-spacing: 6px;
+
+}
+.paragraph3{
+    width: 70%;
+    
+    color: #fff;
+}
+
+.paragraph3 p{
+    width: 100%;
+    font-size: 50px;
+    letter-spacing: 4px;
+
+}
+
+.paragraph{
+    width: 70%;
+}
+
+.paragraph p{
+    width: 100%;
+    color: blanchedalmond;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    line-height: 35px;
+}
+
+.button{
+    width: 70%;
+    padding: 70px 110px;
+    
+    
+}
+
+.button button{
+    text-transform: uppercase;
+    background-color: #ff7200;
+    color: #000;
+    border: 2px solid rgb(169, 146, 146);
+    padding: 8px 60px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.card{
+    height: 550px;
+    width: 20%;
+    background-color: #000;
+    float: right;
+    margin-top: 150px;
+}
+
+.button1 {
+    margin-top: 15px;
+    text-align: center;
+    padding: 20px;
+    
+}.button1 {
+    margin-top: 15px;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.button1 button{
+    font-size: 30px;
+    color: orange;
+    padding: 2px 70px;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+.email{
+    width: 100%;
+    margin-top: 30px;
+    padding: 30px 0px;
+    border-bottom: 0.5px solid #ff7200;
+    
+}
+
+.email input{
+    background-color: #000;
+    color: #fff;
+    
+    width: 100%;
+    float: left;
+    outline: none;
+    border: none;
+    padding: 5px 6px;
+
+}
+
+.password{
+    margin-top: 15px;
+    width: 100%;
+    padding: 25px 0px;
+    border: none;
+    border-bottom: 0.5px solid #ff7200;
+    
+}
+
+.password input{
+    background-color: #000;
+    color: #fff;
+    
+    width: 100%;
+    float: left;
+    outline: none;
+    border: none;
+    padding: 5px 6px;
+
+}
+
+.button2{
+    margin-top: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.button2 button{
+    color: #000;
+    background-color: #ff7200;
+    padding: 2px 90px;
+    cursor: pointer;
+}
+
+.para{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 40px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.p{
+    margin-top: 2px;
+    color: #ff7200;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.p1{
+    font-size: 20px;
+}
+
+.icon{
+    margin-top: 15px;
+    width: 100%;
+    float: left;
+}
+
+.icon ul{
+    width: 100%;
+    list-style-type: none;
+    float: left;
+    
+}
+
+.icon ul li{
+    display: inline-block;
+    padding: 4px 0px;
+    font-size: 30px;
+    
+}
+
+.icon ul li a{
+    color: aliceblue;
+    display: block;
+    text-decoration: none;
+    position: relative;
+    padding: 10px 10px;
+    
+}
+
+.icon ul li a:hover{
+    background-color: #ff7200;
+    color: #fff;
+    transition: 0.5s;
+    border-radius: 15px;
+
+}
